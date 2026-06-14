@@ -1,4 +1,4 @@
-export const API = 'http://localhost:8084';
+export const API = 'https://medi-backend-2.onrender.com';
 
 export const saveAuth = (data) => {
   localStorage.setItem('token', data.token);
